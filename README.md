@@ -1,5 +1,9 @@
 # 科大讯飞 REST API PHP SDK
 
+## 如何获取
+
+    composer require delz/xfyun
+
 ## 调用语音合成接口
 
 
