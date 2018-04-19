@@ -94,6 +94,7 @@ class TTS extends BaseApi
             'engine_type' => $this->getEngineType(),
             'text_type' => $this->getTextType()
         ];
+        //看开发文档需要urlencode，实际测试不需要
         //$this->setText(urlencode($this->getText()));
         $bodyParams = [
             'text' => $this->getText()
