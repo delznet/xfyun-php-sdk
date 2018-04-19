@@ -1,0 +1,22 @@
+{
+  "name": "delz/xfyun",
+  "description": "科大讯飞 REST API PHP SDK",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "徐威",
+      "email": "sheawey@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "~6.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Delz\\XFYun\\": "Delz/XFYun/"
+    }
+  }
+}
