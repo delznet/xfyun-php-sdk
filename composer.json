@@ -9,7 +9,6 @@
       "email": "sheawey@gmail.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=7.0.0",
     "guzzlehttp/guzzle": "~6.3.0"

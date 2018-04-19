@@ -47,6 +47,14 @@ class Client
     }
 
     /**
+     * 创建一个tts实例
+     */
+    public function createIAT()
+    {
+        return new IAT($this);
+    }
+
+    /**
      * @return string
      */
     public function getAppId()
