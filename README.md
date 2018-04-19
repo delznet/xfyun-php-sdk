@@ -9,6 +9,7 @@
     
 2. 生成TTS对象，并发送请求
 
+```
     try {   
         $content = $client->createTTS()->setText('您好')->send();    
         $file = fopen(__DIR__ . '/test.wav',"w");    
@@ -17,3 +18,4 @@
     } catch(ApiException $e) {   
         echo $e->getMessage();  
     }
+```
